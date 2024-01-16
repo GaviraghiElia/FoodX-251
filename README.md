@@ -38,13 +38,26 @@ if you want to put our network to the test set to the test, you can open the Mob
 1. Preliminary options
 2. Dataset
 3. Data augmentation
+
 Skip the fine-tuning section of the MobileNetV3 model and go directly to the Test set section and run it.
 
 ### 🔎 Use category search
-Open the notebook Category_Search_foodx251.ipynb and make sure to execute all portions of the code, **except the feature extraction portion of the entire training set** - The features have already been calculated beforehand and are loaded automatically, the code is only for demonstration purposes.
+Open the notebook Category_Search_foodx251.ipynb and make sure to execute all cell:
+1. Preliminary operations
+2. Dataset
+3. Upload image
+4. Category search
 
-Upload a picture of yourself in .jpg format and enter the category (label) to which the 251 classes belong.
+Please **don't run the Feature extraction cell** the features on the entire training set have already been calculated beforehand and are loaded automatically in the Preliminary Operations cell, the code is only for demonstration purposes.
+
+Now open Upload Image cell, and you can upload a picture of food in .jpg format and enter the category (label) to which the 251 classes belong.
 If you do not know the label to which your image belongs and you do not want an objective evaluation of the results, but only of similar images, enter a random number and disregard the percentages in the output.
+
+#### Automated test category search
+If you want to conveniently test our category search on an entire folder, you can use this code cell.
+We currently use the project's test set, but by appropriately changing the directory and uploading your folder to the Colab session, you can customise this code ad hoc.
+
+Please note, however, that the uploaded images must have a label and that these labels must be retrievable from a CSV with a similar structure to the one we use, otherwise you would have to modify the code.
 
 ## ⛔ Matlab file
 these files were used for a 'pre-stage' of the project realisation and the results are already available on the repository, so avoid running them unless you know exactly what you are doing.
