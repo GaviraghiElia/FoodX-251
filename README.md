@@ -52,6 +52,6 @@ these files were used for a 'pre-stage' of the project realisation and the resul
 
 ## ⚙️ Software and Hardware Requirement
 We recommended:
- - Google Colab (or Kaggle, but be sure to adapt the code) with T4 GPU or higher
- - alternatively, a PC with Nvidia T4 GPU or higher and Python 3.
+ - Google Colab (or Kaggle, but be sure to adapt the code) with T4 GPU or higher to train the model 
+ - alternatively, a PC with Nvidia T4 GPU or higher to train the model, and Python 3
  - MATLAB R2023b with Deep Learning Toolbox, Image Processing Toolbox and Statistics and Machine Learning Toolbox.
